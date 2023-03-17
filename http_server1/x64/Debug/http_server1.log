@@ -1,0 +1,23 @@
+﻿  event.c
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(91,41): warning C4047: функция: "loop_node **" отличается по уровням косвенного обращения от "loop_list ***"
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(91,29): warning C4024: event_loop_list_pop: различные типы для формального и фактического параметров 2
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(96,42): warning C4047: функция: "loop_node **" отличается по уровням косвенного обращения от "loop_list ***"
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(96,30): warning C4024: event_loop_list_pop: различные типы для формального и фактического параметров 2
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(140,85): warning C4047: функция: "PULONG_PTR" отличается по уровням косвенного обращения от "PULONG *"
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(140,70): warning C4024: GetQueuedCompletionStatus: различные типы для формального и фактического параметров 3
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(166,72): warning C4047: функция: "ULONG_PTR" отличается по уровням косвенного обращения от "void *"
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(166,68): warning C4024: CreateIoCompletionPort: различные типы для формального и фактического параметров 3
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(182,52): warning C4047: функция: "ULONG_PTR" отличается по уровням косвенного обращения от "loop_node *"
+C:\Users\crabdev\source\repos\http_server1\http_server1\event.c(182,44): warning C4024: CreateIoCompletionPort: различные типы для формального и фактического параметров 3
+  io_async.c
+C:\Users\crabdev\source\repos\http_server1\http_server1\io_async.c(7,18): warning C4013: event_add: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\crabdev\source\repos\http_server1\http_server1\io_async.c(7,37): warning C4047: =: "event_key_t" отличается по уровням косвенного обращения от "int"
+C:\Users\crabdev\source\repos\http_server1\http_server1\io_async.c(32,13): warning C4133: функция: несовместимые типы - из "async_io *" в "asyncio *"
+C:\Users\crabdev\source\repos\http_server1\http_server1\io_async.c(74,13): warning C4133: функция: несовместимые типы - из "async_io *" в "asyncio *"
+  main.c
+C:\Users\crabdev\source\repos\http_server1\http_server1\main.c(47,43): warning C4113: "void (__cdecl *)(async_io *,usize,void *)" отличается в списках параметров от "async_completion_handler_t"
+  sockets.c
+C:\Users\crabdev\source\repos\http_server1\http_server1\sockets.c(18,70): warning C4047: функция: "GROUP" отличается по уровням косвенного обращения от "void *"
+C:\Users\crabdev\source\repos\http_server1\http_server1\sockets.c(18,66): warning C4024: WSASocketA: различные типы для формального и фактического параметров 5
+C:\Users\crabdev\source\repos\http_server1\http_server1\sockets.c(18,14): error C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Создание кода...
